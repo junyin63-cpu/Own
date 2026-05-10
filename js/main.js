@@ -651,7 +651,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 检查本地是否已登录
     const isAuth = localStorage.getItem('ephone_auth');
 
-    if (isAuth === 'true') {
+    if (true) {
         console.log(`[Auto Login] 检测到已授权状态`);
         try {
             // 已登录：直接初始化数据库并启动
